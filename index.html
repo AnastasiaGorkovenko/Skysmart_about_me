@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About_me</title>
+    <link rel="stylesheet" href="style.css">
+
+    <nav>
+        <ul>
+            <li><a href="#about_me">Обо мне</a></li>
+            <li><a href="Portfolio">Портфолио</a></li>
+            <li><a href="Contacts">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <main>
+        <section id="about_me">
+            <h2>Обо мне</h2>
+            <img src="me.jpg" width="100" alt="Моё фото">
+            <p>Люблю учить детей, гулять на свежем воздухе и путешествовать.</p>
+        </section>
+        <section id="Portfolio">
+            <h2>Портфолио</h2>
+            <div class="portfolio__col">
+                <img src="https://dummyimage.com/600x300/4a4a4a/ffffff" alt="Добавленная картинка">
+            </div>
+            <div class="portfolio__col">
+                <img src="https://dummyimage.com/600x300/4a4a4a/ffffff" alt="Добавленная картинка">
+            </div>
+            <div class="portfolio__col">
+                <img src="https://dummyimage.com/600x300/4a4a4a/ffffff" alt="Добавленная картинка">
+            </div>
+        </section>
+        <section id="Contacts">
+            <h2>Контакты</h2>
+            <p>Горковенко Анастасия Андреевна</p>
+            <div><a href="tel:+79133962255">+7 913-396-22-55</a></div>
+            <div><a href="mailto:anastasiya.grkvnk2@skyeng.ru">anastasiya.grkvnk2@skyeng.ru</a></div>
+        </section>
+    </main>
+    <table>
+        <caption>Список покупок</caption>
+        <colgroup>
+            <col style="background-color: none">
+            <col style="background-color: lightcoral">
+            <col style="background-color: lightskyblue">
+            <col style="background-color: lavenderblush">    
+        </colgroup>
+        <tr>
+            <th>Продукт</th>
+            <th>Цена за ед.</th>
+            <th>Количество шт.</th>
+            <th>Стоимость</th>
+        </tr>
+        <tr>
+            <td>Сметана</td>
+            <td>80</td>
+            <td>2</td>
+            <td>160</td>
+        </tr>
+        <tr>
+            <td>Молоко</td>
+            <td>200</td>
+            <td>3</td>
+            <td>600</td>
+        </tr>
+        <tr>
+            <td>Бананы</td>
+            <td>20</td>
+            <td>2</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Шоколадки</td>
+            <td>25</td>
+            <td>4</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td colspan="3">Итого:</td>
+            <td>900</td>
+        </tr>
+    </table>
+
+    <form action="" id="contact-form">
+        <div class="contacts__field">
+            <input type="text" name="username" placeholder="Введите имя" required>
+            <input type="email" name="email" id="" placeholder="Введите почту" required>
+        </div>
+        <div class="contacts__field">
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Введите текст" required></textarea>
+        </div>
+        <div class="contacts__field">
+            <button>Отправить сообщение</button>
+        </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>© 2022 Горковенко Анастасия</p>
+    </footer>
+</body>
+</html>
