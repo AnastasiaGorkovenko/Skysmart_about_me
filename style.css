@@ -49,3 +49,27 @@ button {
     color: white;
     background-color: #ff6c00;
 }
+.portfolio__modals {
+    background-color: #d16d6d85;
+    /* display: none; */
+}
+.portfolio__modal {
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    text-align: center;
+}
+.portfolio__modal h3 {
+    position: relative;
+    top: 40px; 
+}
+.portfolio__modal img {
+    position: relative;
+    top: 80px; 
+}
+.portfolio__modal p {
+    position: relative;
+    top: 120px; 
+}
+
